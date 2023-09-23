@@ -1,0 +1,29 @@
+/* descendant selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+/* p a {
+    color: purple;
+    background-color: yellow;
+} */
+
+ /* a {
+    color: purple;
+} */
+
+/* nav ul li {
+    color:hotpink ;
+} */
+
+/* nav ul li a {
+    color: hotpink;
+} */
+
+/* ya */
+
+nav  a {
+    color: hotpink;
+}
+
+

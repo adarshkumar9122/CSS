@@ -1,0 +1,128 @@
+ h3 {
+   background-color: antiquewhite !important;
+ }
+* {
+    font-family: Courier;
+}
+h3,h1 {
+    /* color: purple; */
+    color: #B92B27;
+}
+/* h1 {
+    color: #B92B27;
+} */
+ #login {
+    background-color: white;
+ }
+ #signup {
+    background-color: #B92B27;
+    color: aquamarine;
+ }
+ .upvote {
+ color: white;
+ background-color: green;
+ }
+
+ /* Adjacent sibling combinator */
+ p + h3 {
+    text-decoration: underline;
+ }
+ .upvote + button {
+    background-color: cornflowerblue;
+ }
+ /* child combinator */
+  div > input {
+    background-color: darkgray;
+  }
+
+  /* Attribute selector */
+   
+   input[type="text"] {
+    color: red;
+  }
+  input[type="password"] {
+    color: gold;  
+ } 
+
+ /* ya */
+
+ /* input[type] {
+    color: #B92B27;
+ } */
+
+
+ /* practice Qs_2 in clas  */
+
+ /* #myid p {
+    color: green;
+ } */
+
+ 
+ div[id="myid"] p {
+    color: green;
+ }
+ /* psedo class */
+
+ /*1. :hover class*/
+ button:hover {
+   background-color:black ;
+   color: white;
+    
+ }
+ h3:hover {
+   text-decoration: none;
+ }
+ /* 2. :active class*/
+ button:active {
+   background-color: hotpink;
+   color: black;
+ }
+ p:active {
+   font-weight: bold;
+   color: green;
+ }
+
+ /* 3.  :checked clas   , ye important hai kyu ki is mai label pe css apply kr rhe hai or radio and 
+ label mai sibling karelation hai so attribute selector and adjacent sibling combinator ka use kiye hai */
+input[type=radio]:checked +label {
+   color: red;
+   font-size: bold;
+}
+/* 4.  :nth-of-type()   class*/
+
+.post:nth-of-type(2){
+   background-color: blanchedalmond;
+}
+div:nth-of-type(2){
+   background-color: aqua;
+}
+
+/* pseudo element */
+
+/*  ::first-letter */
+h1::first-letter {
+   color: greenyellow;
+}
+
+/* ::first-line  ye use kiye practice Qs_2 mai */
+p::first-line{
+   color: purple;
+}
+p::selection{
+   background-color: rgb(128, 126, 0);
+}
+
+
+/* CSS:cascading stylesheet */
+h3 {
+   background-color: yellow;
+}
+h3 {
+   background-color: rgb(52, 52, 152);
+}
+
+
+
+
+
+
