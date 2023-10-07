@@ -1,0 +1,30 @@
+/* display ke madad se hum kisi bhi element ko block element ya inline element bna skte hai  */
+/* h2{
+    display: inline;
+    background-color: pink;
+}
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+ 
+span{
+   /* /* background-color: yellowgreen; * / */
+    border: 2px solid black;
+    /* /* is spain ke andar koi height and width kaam nhi karega yaad rakhna * /*/
+    height: 100px;
+    width: 200px;
+/*/* is mai only left and right mai paddding and margin ho raha hai * /*/
+     padding: 50px; 
+     margin: 20px;
+}  
+div {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+     padding: 50px; 
+     margin: 20px;
+}
+
+

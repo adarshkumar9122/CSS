@@ -1,128 +1,39 @@
- h3 {
-   background-color: antiquewhite !important;
- }
-* {
-    font-family: Courier;
-}
-h3,h1 {
-    /* color: purple; */
-    color: #B92B27;
-}
-/* h1 {
-    color: #B92B27;
-} */
- #login {
-    background-color: white;
- }
- #signup {
-    background-color: #B92B27;
-    color: aquamarine;
- }
- .upvote {
- color: white;
- background-color: green;
- }
-
- /* Adjacent sibling combinator */
- p + h3 {
-    text-decoration: underline;
- }
- .upvote + button {
-    background-color: cornflowerblue;
- }
- /* child combinator */
-  div > input {
-    background-color: darkgray;
-  }
-
-  /* Attribute selector */
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border-width: 5px;
+    border-style:solid ;
+    border-color: black; */
    
-   input[type="text"] {
-    color: red;
-  }
-  input[type="password"] {
-    color: gold;  
- } 
+    /* Border shorthand */
+    border: 5px solid black;
+     /* border-left: red;
+    border-top: 5px dashed blue ;  */
 
- /* ya */
+    /* Border radius :--> it is use to round the corners of an element's outer border */
+    /* border-radius: 15px; */
+    /* border-radius: 50%; */
+    /* border-top-right-radius: 50px; */
+    border-radius: 10px;
 
- /* input[type] {
-    color: #B92B27;
- } */
+    padding-top: 10px;
+    /* margin-bottom: 25px; */
 
-
- /* practice Qs_2 in clas  */
-
- /* #myid p {
-    color: green;
- } */
-
- 
- div[id="myid"] p {
-    color: green;
- }
- /* psedo class */
-
- /*1. :hover class*/
- button:hover {
-   background-color:black ;
-   color: white;
-    
- }
- h3:hover {
-   text-decoration: none;
- }
- /* 2. :active class*/
- button:active {
-   background-color: hotpink;
-   color: black;
- }
- p:active {
-   font-weight: bold;
-   color: green;
- }
-
- /* 3.  :checked clas   , ye important hai kyu ki is mai label pe css apply kr rhe hai or radio and 
- label mai sibling karelation hai so attribute selector and adjacent sibling combinator ka use kiye hai */
-input[type=radio]:checked +label {
-   color: red;
-   font-size: bold;
+    /* shorthand margin */
+    margin: 25px;
 }
-/* 4.  :nth-of-type()   class*/
-
-.post:nth-of-type(2){
-   background-color: blanchedalmond;
+h1 {
+    /* border-width: 2px;
+    border-style:dashed ;
+    border-color: purple; */
+    border: 2px dashed purple;
+    /* margin: 0;   (by default heading ko margin milta hai) */
 }
-div:nth-of-type(2){
-   background-color: aqua;
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
 }
-
-/* pseudo element */
-
-/*  ::first-letter */
-h1::first-letter {
-   color: greenyellow;
-}
-
-/* ::first-line  ye use kiye practice Qs_2 mai */
-p::first-line{
-   color: purple;
-}
-p::selection{
-   background-color: rgb(128, 126, 0);
-}
-
-
-/* CSS:cascading stylesheet */
-h3 {
-   background-color: yellow;
-}
-h3 {
-   background-color: rgb(52, 52, 152);
-}
-
-
-
-
-
-
